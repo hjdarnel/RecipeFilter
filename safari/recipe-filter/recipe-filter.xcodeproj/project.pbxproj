@@ -29,14 +29,13 @@
 		BA90C19227B0DDE200F93C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA90C19027B0DDE200F93C6A /* Main.storyboard */; };
 		BA90C19A27B0DDE400F93C6A /* recipe filter ios Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BA90C19927B0DDE400F93C6A /* recipe filter ios Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BA90C19F27B0DDE400F93C6A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90C19E27B0DDE400F93C6A /* SafariWebExtensionHandler.swift */; };
-		BA90C1A227B0DDE400F93C6A /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A127B0DDE400F93C6A /* _locales */; };
-		BA90C1A427B0DDE400F93C6A /* images in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A327B0DDE400F93C6A /* images */; };
 		BA90C1B227B0DDE400F93C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA90C19327B0DDE400F93C6A /* Assets.xcassets */; };
 		BA90C1C427B0DE8400F93C6A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1C327B0DE8400F93C6A /* manifest.json */; };
 		BA90C1C927B0DF0500F93C6A /* html in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1C527B0DF0500F93C6A /* html */; };
 		BA90C1CA27B0DF0500F93C6A /* js in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1C627B0DF0500F93C6A /* js */; };
 		BA90C1CB27B0DF0500F93C6A /* img in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1C727B0DF0500F93C6A /* img */; };
 		BA90C1CC27B0DF0500F93C6A /* css in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1C827B0DF0500F93C6A /* css */; };
+		BA90C1D627B0EA1B00F93C6A /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1D527B0EA1B00F93C6A /* icon-128.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,14 +111,13 @@
 		BA90C19427B0DDE400F93C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA90C19927B0DDE400F93C6A /* recipe filter ios Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "recipe filter ios Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA90C19E27B0DDE400F93C6A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		BA90C1A127B0DDE400F93C6A /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
-		BA90C1A327B0DDE400F93C6A /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		BA90C1B127B0DDE400F93C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA90C1C327B0DE8400F93C6A /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = "recipe-filter Extension/manifest.json"; sourceTree = SOURCE_ROOT; };
 		BA90C1C527B0DF0500F93C6A /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = ../../../../src/html; sourceTree = "<group>"; };
 		BA90C1C627B0DF0500F93C6A /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = ../../../../src/js; sourceTree = "<group>"; };
 		BA90C1C727B0DF0500F93C6A /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = ../../../../src/img; sourceTree = "<group>"; };
 		BA90C1C827B0DF0500F93C6A /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../../../../src/css; sourceTree = "<group>"; };
+		BA90C1D527B0EA1B00F93C6A /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = "../../../../src/img/icon-128.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +239,7 @@
 		BA90C18127B0DDE200F93C6A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BA90C1D527B0EA1B00F93C6A /* icon-128.png */,
 				BA90C18227B0DDE200F93C6A /* Main.html */,
 				BA90C18527B0DDE200F93C6A /* Icon.png */,
 				BA90C18727B0DDE200F93C6A /* Style.css */,
@@ -266,8 +265,6 @@
 				BA90C1C727B0DF0500F93C6A /* img */,
 				BA90C1C627B0DF0500F93C6A /* js */,
 				BA90C1C327B0DE8400F93C6A /* manifest.json */,
-				BA90C1A127B0DDE400F93C6A /* _locales */,
-				BA90C1A327B0DDE400F93C6A /* images */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -421,6 +418,7 @@
 				BA90C19227B0DDE200F93C6A /* Main.storyboard in Resources */,
 				BA90C18F27B0DDE200F93C6A /* LaunchScreen.storyboard in Resources */,
 				BA90C18427B0DDE200F93C6A /* Main.html in Resources */,
+				BA90C1D627B0EA1B00F93C6A /* icon-128.png in Resources */,
 				BA90C1B227B0DDE400F93C6A /* Assets.xcassets in Resources */,
 				BA90C18827B0DDE200F93C6A /* Style.css in Resources */,
 			);
@@ -431,10 +429,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA90C1CC27B0DF0500F93C6A /* css in Resources */,
-				BA90C1A427B0DDE400F93C6A /* images in Resources */,
 				BA90C1C427B0DE8400F93C6A /* manifest.json in Resources */,
 				BA90C1CA27B0DF0500F93C6A /* js in Resources */,
-				BA90C1A227B0DDE400F93C6A /* _locales in Resources */,
 				BA90C1CB27B0DF0500F93C6A /* img in Resources */,
 				BA90C1C927B0DF0500F93C6A /* html in Resources */,
 			);
@@ -740,7 +736,7 @@
 				DEVELOPMENT_TEAM = U6U37LP6YF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "recipe filter ios/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "recipe filter ios";
+				INFOPLIST_KEY_CFBundleDisplayName = "Recipe Filter";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -779,7 +775,7 @@
 				DEVELOPMENT_TEAM = U6U37LP6YF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "recipe filter ios/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "recipe filter ios";
+				INFOPLIST_KEY_CFBundleDisplayName = "Recipe Filter";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

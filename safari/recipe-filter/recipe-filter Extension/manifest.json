@@ -13,7 +13,8 @@
   "options_page": "html/options.html",
   "browser_action": {
     "default_title": "Recipe Filter",
-    "default_icon": "img/icon-128.png"
+    "default_icon": "img/icon-128.png",
+    "default_popup": "html/options.html"
   },
   "content_scripts": [
     {
