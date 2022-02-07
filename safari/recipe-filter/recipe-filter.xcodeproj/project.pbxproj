@@ -31,13 +31,12 @@
 		BA90C19F27B0DDE400F93C6A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90C19E27B0DDE400F93C6A /* SafariWebExtensionHandler.swift */; };
 		BA90C1A227B0DDE400F93C6A /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A127B0DDE400F93C6A /* _locales */; };
 		BA90C1A427B0DDE400F93C6A /* images in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A327B0DDE400F93C6A /* images */; };
-		BA90C1A627B0DDE400F93C6A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A527B0DDE400F93C6A /* manifest.json */; };
-		BA90C1A827B0DDE400F93C6A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A727B0DDE400F93C6A /* background.js */; };
-		BA90C1AA27B0DDE400F93C6A /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A927B0DDE400F93C6A /* content.js */; };
-		BA90C1AC27B0DDE400F93C6A /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1AB27B0DDE400F93C6A /* popup.html */; };
-		BA90C1AE27B0DDE400F93C6A /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1AD27B0DDE400F93C6A /* popup.css */; };
-		BA90C1B027B0DDE400F93C6A /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1AF27B0DDE400F93C6A /* popup.js */; };
 		BA90C1B227B0DDE400F93C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA90C19327B0DDE400F93C6A /* Assets.xcassets */; };
+		BA90C1C427B0DE8400F93C6A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1C327B0DE8400F93C6A /* manifest.json */; };
+		BA90C1C927B0DF0500F93C6A /* html in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1C527B0DF0500F93C6A /* html */; };
+		BA90C1CA27B0DF0500F93C6A /* js in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1C627B0DF0500F93C6A /* js */; };
+		BA90C1CB27B0DF0500F93C6A /* img in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1C727B0DF0500F93C6A /* img */; };
+		BA90C1CC27B0DF0500F93C6A /* css in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1C827B0DF0500F93C6A /* css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,13 +114,12 @@
 		BA90C19E27B0DDE400F93C6A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		BA90C1A127B0DDE400F93C6A /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		BA90C1A327B0DDE400F93C6A /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		BA90C1A527B0DDE400F93C6A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		BA90C1A727B0DDE400F93C6A /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		BA90C1A927B0DDE400F93C6A /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		BA90C1AB27B0DDE400F93C6A /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		BA90C1AD27B0DDE400F93C6A /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		BA90C1AF27B0DDE400F93C6A /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		BA90C1B127B0DDE400F93C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA90C1C327B0DE8400F93C6A /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = "recipe-filter Extension/manifest.json"; sourceTree = SOURCE_ROOT; };
+		BA90C1C527B0DF0500F93C6A /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = ../../../../src/html; sourceTree = "<group>"; };
+		BA90C1C627B0DF0500F93C6A /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = ../../../../src/js; sourceTree = "<group>"; };
+		BA90C1C727B0DF0500F93C6A /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = ../../../../src/img; sourceTree = "<group>"; };
+		BA90C1C827B0DF0500F93C6A /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../../../../src/css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,14 +261,13 @@
 		BA90C1A027B0DDE400F93C6A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BA90C1C827B0DF0500F93C6A /* css */,
+				BA90C1C527B0DF0500F93C6A /* html */,
+				BA90C1C727B0DF0500F93C6A /* img */,
+				BA90C1C627B0DF0500F93C6A /* js */,
+				BA90C1C327B0DE8400F93C6A /* manifest.json */,
 				BA90C1A127B0DDE400F93C6A /* _locales */,
 				BA90C1A327B0DDE400F93C6A /* images */,
-				BA90C1A527B0DDE400F93C6A /* manifest.json */,
-				BA90C1A727B0DDE400F93C6A /* background.js */,
-				BA90C1A927B0DDE400F93C6A /* content.js */,
-				BA90C1AB27B0DDE400F93C6A /* popup.html */,
-				BA90C1AD27B0DDE400F93C6A /* popup.css */,
-				BA90C1AF27B0DDE400F93C6A /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -433,14 +430,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA90C1A827B0DDE400F93C6A /* background.js in Resources */,
-				BA90C1AE27B0DDE400F93C6A /* popup.css in Resources */,
-				BA90C1AC27B0DDE400F93C6A /* popup.html in Resources */,
+				BA90C1CC27B0DF0500F93C6A /* css in Resources */,
 				BA90C1A427B0DDE400F93C6A /* images in Resources */,
-				BA90C1A627B0DDE400F93C6A /* manifest.json in Resources */,
+				BA90C1C427B0DE8400F93C6A /* manifest.json in Resources */,
+				BA90C1CA27B0DF0500F93C6A /* js in Resources */,
 				BA90C1A227B0DDE400F93C6A /* _locales in Resources */,
-				BA90C1AA27B0DDE400F93C6A /* content.js in Resources */,
-				BA90C1B027B0DDE400F93C6A /* popup.js in Resources */,
+				BA90C1CB27B0DF0500F93C6A /* img in Resources */,
+				BA90C1C927B0DF0500F93C6A /* html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,7 +829,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "hjdarnel.recipe-filter.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "hjdarnel.recipe-filter-ios.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -865,7 +861,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "hjdarnel.recipe-filter.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "hjdarnel.recipe-filter-ios.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
