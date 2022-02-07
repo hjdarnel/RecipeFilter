@@ -19,6 +19,25 @@
 		127D5E4325DCD88600D9149F /* html in Resources */ = {isa = PBXBuildFile; fileRef = 127D5E3E25DCD88600D9149F /* html */; };
 		127D5E4425DCD88600D9149F /* img in Resources */ = {isa = PBXBuildFile; fileRef = 127D5E3F25DCD88600D9149F /* img */; };
 		127D5E4525DCD88600D9149F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 127D5E4025DCD88600D9149F /* manifest.json */; };
+		BA90C18027B0DDE200F93C6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90C17F27B0DDE200F93C6A /* AppDelegate.swift */; };
+		BA90C18427B0DDE200F93C6A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BA90C18227B0DDE200F93C6A /* Main.html */; };
+		BA90C18627B0DDE200F93C6A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA90C18527B0DDE200F93C6A /* Icon.png */; };
+		BA90C18827B0DDE200F93C6A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BA90C18727B0DDE200F93C6A /* Style.css */; };
+		BA90C18A27B0DDE200F93C6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90C18927B0DDE200F93C6A /* SceneDelegate.swift */; };
+		BA90C18C27B0DDE200F93C6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90C18B27B0DDE200F93C6A /* ViewController.swift */; };
+		BA90C18F27B0DDE200F93C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA90C18D27B0DDE200F93C6A /* LaunchScreen.storyboard */; };
+		BA90C19227B0DDE200F93C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA90C19027B0DDE200F93C6A /* Main.storyboard */; };
+		BA90C19A27B0DDE400F93C6A /* recipe filter ios Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BA90C19927B0DDE400F93C6A /* recipe filter ios Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BA90C19F27B0DDE400F93C6A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90C19E27B0DDE400F93C6A /* SafariWebExtensionHandler.swift */; };
+		BA90C1A227B0DDE400F93C6A /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A127B0DDE400F93C6A /* _locales */; };
+		BA90C1A427B0DDE400F93C6A /* images in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A327B0DDE400F93C6A /* images */; };
+		BA90C1A627B0DDE400F93C6A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A527B0DDE400F93C6A /* manifest.json */; };
+		BA90C1A827B0DDE400F93C6A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A727B0DDE400F93C6A /* background.js */; };
+		BA90C1AA27B0DDE400F93C6A /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1A927B0DDE400F93C6A /* content.js */; };
+		BA90C1AC27B0DDE400F93C6A /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1AB27B0DDE400F93C6A /* popup.html */; };
+		BA90C1AE27B0DDE400F93C6A /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1AD27B0DDE400F93C6A /* popup.css */; };
+		BA90C1B027B0DDE400F93C6A /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BA90C1AF27B0DDE400F93C6A /* popup.js */; };
+		BA90C1B227B0DDE400F93C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA90C19327B0DDE400F93C6A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +47,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 127D5E2525DCD88600D9149F;
 			remoteInfo = "recipe-filter Extension";
+		};
+		BA90C19B27B0DDE400F93C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127D5E0C25DCD88600D9149F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA90C19827B0DDE400F93C6A;
+			remoteInfo = "recipe filter ios Extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,6 +65,17 @@
 			dstSubfolderSpec = 13;
 			files = (
 				127D5E2725DCD88600D9149F /* recipe-filter Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90C1B527B0DDE400F93C6A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BA90C19A27B0DDE400F93C6A /* recipe filter ios Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +100,28 @@
 		127D5E3E25DCD88600D9149F /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = ../../../src/html; sourceTree = "<group>"; };
 		127D5E3F25DCD88600D9149F /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = ../../../src/img; sourceTree = "<group>"; };
 		127D5E4025DCD88600D9149F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../src/manifest.json; sourceTree = "<group>"; };
+		BA90C17D27B0DDE200F93C6A /* recipe filter ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recipe filter ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90C17F27B0DDE200F93C6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA90C18327B0DDE200F93C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		BA90C18527B0DDE200F93C6A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BA90C18727B0DDE200F93C6A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		BA90C18927B0DDE200F93C6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA90C18B27B0DDE200F93C6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA90C18E27B0DDE200F93C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA90C19127B0DDE200F93C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA90C19327B0DDE400F93C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA90C19427B0DDE400F93C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA90C19927B0DDE400F93C6A /* recipe filter ios Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "recipe filter ios Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90C19E27B0DDE400F93C6A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		BA90C1A127B0DDE400F93C6A /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		BA90C1A327B0DDE400F93C6A /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		BA90C1A527B0DDE400F93C6A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		BA90C1A727B0DDE400F93C6A /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		BA90C1A927B0DDE400F93C6A /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		BA90C1AB27B0DDE400F93C6A /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		BA90C1AD27B0DDE400F93C6A /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		BA90C1AF27B0DDE400F93C6A /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		BA90C1B127B0DDE400F93C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +140,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA90C17A27B0DDE200F93C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90C19627B0DDE400F93C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,6 +162,8 @@
 			children = (
 				127D5E1625DCD88600D9149F /* recipe-filter */,
 				127D5E2D25DCD88600D9149F /* recipe-filter Extension */,
+				BA90C17E27B0DDE200F93C6A /* recipe filter ios */,
+				BA90C19D27B0DDE400F93C6A /* recipe filter ios Extension */,
 				127D5E2A25DCD88600D9149F /* Frameworks */,
 				127D5E1525DCD88600D9149F /* Products */,
 			);
@@ -99,6 +174,8 @@
 			children = (
 				127D5E1425DCD88600D9149F /* recipe-filter.app */,
 				127D5E2625DCD88600D9149F /* recipe-filter Extension.appex */,
+				BA90C17D27B0DDE200F93C6A /* recipe filter ios.app */,
+				BA90C19927B0DDE400F93C6A /* recipe filter ios Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +225,56 @@
 			path = "recipe-filter Extension";
 			sourceTree = SOURCE_ROOT;
 		};
+		BA90C17E27B0DDE200F93C6A /* recipe filter ios */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C17F27B0DDE200F93C6A /* AppDelegate.swift */,
+				BA90C18927B0DDE200F93C6A /* SceneDelegate.swift */,
+				BA90C18B27B0DDE200F93C6A /* ViewController.swift */,
+				BA90C18D27B0DDE200F93C6A /* LaunchScreen.storyboard */,
+				BA90C19027B0DDE200F93C6A /* Main.storyboard */,
+				BA90C19327B0DDE400F93C6A /* Assets.xcassets */,
+				BA90C19427B0DDE400F93C6A /* Info.plist */,
+				BA90C18127B0DDE200F93C6A /* Resources */,
+			);
+			path = "recipe filter ios";
+			sourceTree = "<group>";
+		};
+		BA90C18127B0DDE200F93C6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C18227B0DDE200F93C6A /* Main.html */,
+				BA90C18527B0DDE200F93C6A /* Icon.png */,
+				BA90C18727B0DDE200F93C6A /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA90C19D27B0DDE400F93C6A /* recipe filter ios Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C19E27B0DDE400F93C6A /* SafariWebExtensionHandler.swift */,
+				BA90C1B127B0DDE400F93C6A /* Info.plist */,
+				BA90C1A027B0DDE400F93C6A /* Resources */,
+			);
+			path = "recipe filter ios Extension";
+			sourceTree = "<group>";
+		};
+		BA90C1A027B0DDE400F93C6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C1A127B0DDE400F93C6A /* _locales */,
+				BA90C1A327B0DDE400F93C6A /* images */,
+				BA90C1A527B0DDE400F93C6A /* manifest.json */,
+				BA90C1A727B0DDE400F93C6A /* background.js */,
+				BA90C1A927B0DDE400F93C6A /* content.js */,
+				BA90C1AB27B0DDE400F93C6A /* popup.html */,
+				BA90C1AD27B0DDE400F93C6A /* popup.css */,
+				BA90C1AF27B0DDE400F93C6A /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,13 +314,49 @@
 			productReference = 127D5E2625DCD88600D9149F /* recipe-filter Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		BA90C17C27B0DDE200F93C6A /* recipe filter ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90C1B927B0DDE400F93C6A /* Build configuration list for PBXNativeTarget "recipe filter ios" */;
+			buildPhases = (
+				BA90C17927B0DDE200F93C6A /* Sources */,
+				BA90C17A27B0DDE200F93C6A /* Frameworks */,
+				BA90C17B27B0DDE200F93C6A /* Resources */,
+				BA90C1B527B0DDE400F93C6A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA90C19C27B0DDE400F93C6A /* PBXTargetDependency */,
+			);
+			name = "recipe filter ios";
+			productName = "recipe filter ios";
+			productReference = BA90C17D27B0DDE200F93C6A /* recipe filter ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA90C19827B0DDE400F93C6A /* recipe filter ios Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90C1B827B0DDE400F93C6A /* Build configuration list for PBXNativeTarget "recipe filter ios Extension" */;
+			buildPhases = (
+				BA90C19527B0DDE400F93C6A /* Sources */,
+				BA90C19627B0DDE400F93C6A /* Frameworks */,
+				BA90C19727B0DDE400F93C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "recipe filter ios Extension";
+			productName = "recipe filter ios Extension";
+			productReference = BA90C19927B0DDE400F93C6A /* recipe filter ios Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		127D5E0C25DCD88600D9149F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					127D5E1325DCD88600D9149F = {
@@ -201,6 +364,12 @@
 					};
 					127D5E2525DCD88600D9149F = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					BA90C17C27B0DDE200F93C6A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					BA90C19827B0DDE400F93C6A = {
+						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
@@ -219,6 +388,8 @@
 			targets = (
 				127D5E1325DCD88600D9149F /* recipe-filter */,
 				127D5E2525DCD88600D9149F /* recipe-filter Extension */,
+				BA90C17C27B0DDE200F93C6A /* recipe filter ios */,
+				BA90C19827B0DDE400F93C6A /* recipe filter ios Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +416,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA90C17B27B0DDE200F93C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90C18627B0DDE200F93C6A /* Icon.png in Resources */,
+				BA90C19227B0DDE200F93C6A /* Main.storyboard in Resources */,
+				BA90C18F27B0DDE200F93C6A /* LaunchScreen.storyboard in Resources */,
+				BA90C18427B0DDE200F93C6A /* Main.html in Resources */,
+				BA90C1B227B0DDE400F93C6A /* Assets.xcassets in Resources */,
+				BA90C18827B0DDE200F93C6A /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90C19727B0DDE400F93C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90C1A827B0DDE400F93C6A /* background.js in Resources */,
+				BA90C1AE27B0DDE400F93C6A /* popup.css in Resources */,
+				BA90C1AC27B0DDE400F93C6A /* popup.html in Resources */,
+				BA90C1A427B0DDE400F93C6A /* images in Resources */,
+				BA90C1A627B0DDE400F93C6A /* manifest.json in Resources */,
+				BA90C1A227B0DDE400F93C6A /* _locales in Resources */,
+				BA90C1AA27B0DDE400F93C6A /* content.js in Resources */,
+				BA90C1B027B0DDE400F93C6A /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -265,6 +464,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA90C17927B0DDE200F93C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90C18C27B0DDE200F93C6A /* ViewController.swift in Sources */,
+				BA90C18027B0DDE200F93C6A /* AppDelegate.swift in Sources */,
+				BA90C18A27B0DDE200F93C6A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90C19527B0DDE400F93C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90C19F27B0DDE400F93C6A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -273,6 +490,11 @@
 			target = 127D5E2525DCD88600D9149F /* recipe-filter Extension */;
 			targetProxy = 127D5E2825DCD88600D9149F /* PBXContainerItemProxy */;
 		};
+		BA90C19C27B0DDE400F93C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA90C19827B0DDE400F93C6A /* recipe filter ios Extension */;
+			targetProxy = BA90C19B27B0DDE400F93C6A /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -280,6 +502,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				127D5E1B25DCD88600D9149F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA90C18227B0DDE200F93C6A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90C18327B0DDE200F93C6A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		BA90C18D27B0DDE200F93C6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90C18E27B0DDE200F93C6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BA90C19027B0DDE200F93C6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90C19127B0DDE200F93C6A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -486,6 +732,150 @@
 			};
 			name = Release;
 		};
+		BA90C1B327B0DDE400F93C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6U37LP6YF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recipe filter ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "recipe filter ios";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hjdarnel.recipe-filter-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA90C1B427B0DDE400F93C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6U37LP6YF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recipe filter ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "recipe filter ios";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hjdarnel.recipe-filter-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA90C1B627B0DDE400F93C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6U37LP6YF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recipe filter ios Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "recipe filter ios Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hjdarnel.recipe-filter.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA90C1B727B0DDE400F93C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6U37LP6YF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recipe filter ios Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "recipe filter ios Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hjdarnel.recipe-filter.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -512,6 +902,24 @@
 			buildConfigurations = (
 				127D5E3925DCD88600D9149F /* Debug */,
 				127D5E3A25DCD88600D9149F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA90C1B827B0DDE400F93C6A /* Build configuration list for PBXNativeTarget "recipe filter ios Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90C1B627B0DDE400F93C6A /* Debug */,
+				BA90C1B727B0DDE400F93C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA90C1B927B0DDE400F93C6A /* Build configuration list for PBXNativeTarget "recipe filter ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90C1B327B0DDE400F93C6A /* Debug */,
+				BA90C1B427B0DDE400F93C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
